@@ -165,7 +165,7 @@
 		{"from": "MuxReg", "out": "Out", "to": "ALU", "in": "In2", "end": {"x": 480, "y": 287}},
 		{"from": "ID/EX", "out": "ALUSrc", "to": "MuxReg", "in": "ALUSrc", "start": {"x": 405, "y": 160}, "points": [{"x": 462, "y": 160}]},
 		{"from": "ID/EX", "out": "Imm", "to": "DistImm", "in": "In", "start": {"x": 405, "y": 350}, "end": {"x": 448, "y": 350}},
-		{"from": "ALUControl", "out": "Operation", "to": "ALU", "in": "Operation", "points": [{"x": 510, "y": 350}]},
+		{"from": "ALUControl", "out": "Operation", "to": "ALU", "in": "Operation", "start": {"x": 495, "y": 340}, "points": [{"x": 510, "y": 340}]},
 		{"from": "ALUControl", "out": "JalrReg", "to": "EX/MEM", "in": "JalrReg", "start": {"x": 495, "y": 355}, "end": {"x": 550, "y": 355}},
 		{"from": "ALUControl", "out": "JumpReg", "to": "EX/MEM", "in": "JumpReg", "start": {"x": 495, "y": 350}, "end": {"x": 550, "y": 350}},
 		{"from": "DistImm", "out": "5-0", "to": "ALUControl", "in": "func", "start": {"x": 448, "y": 350}},
